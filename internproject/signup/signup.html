@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="javascript" href="signup.js">
+</head>
+<body>
+    
+    <div class="content">
+        <div class="top">
+            <img src="images/ecom.jpg" alt="logo" height="20px">
+            <h1 class="head">Ecommerce website</h1>
+        </div>
+        <form action="signup.php" method="POST">
+            <h3>Signup Form</h3>
+            <input type="text" class="username" placeholder="Enter username" required>
+            <input type="text" class="password" placeholder="Enter password" required>
+            <input type="text" class="confirm" placeholder="Confirm password" required>
+            <input onclick="process()" type="submit" class="submit" type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+</html>

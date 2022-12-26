@@ -1,0 +1,72 @@
+body
+{
+    height: 100vh;
+    background: url(images/bg2.jpg) no-repeat  center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+header
+{
+    background-color: rgba(255, 255, 255, 0.329);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+}
+footer
+{
+    position: relative;
+    top: 180vh;
+    display: flex;
+    flex-direction: column;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.info
+{
+    display: flex;
+    align-self: center;
+    margin: 5px;
+    
+    flex-direction: row;
+    align-content: space-evenly;
+}
+.about
+{
+    background-color: rgba(255, 255, 255, 0.24);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 46vw;
+    margin: 10px;
+}
+.contact
+{
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 46vw;
+    margin: 10px;
+}
+.reserved
+{
+    color: white;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+}
