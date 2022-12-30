@@ -11,15 +11,45 @@
             width : 200px;
             height:fit-content;
             padding:10px;
-            display:inline-bloack;
+            display:inline-block;
             margin: 20px;
+            background-color: rgba(255, 255, 255, 0.329);
+            margin: left 30px;
+            padding:10px;
+            border-radius:10px;
+            color:white;
             
         }
+        
         .pdt-img
         {
             width:200px;
             height:200px
         }
+        button
+        {
+            border-radius:5px;
+            border:transparent;
+            padding:2px;
+            padding-left:15px;
+            padding-right:15px;
+            
+        }
+        .delete
+        {
+            background-color: rgba(200, 0, 0, 0.6);
+        }
+        .edit
+        {
+            background-color: rgb(168, 180, 0, 0.6);
+            align-self:right;
+        }
+        .bot
+        {
+            display:flex;
+            justify-content:space-between;
+        }
+
 
 
 
@@ -47,14 +77,18 @@ while($row = mysqli_fetch_assoc($sql_result))
 
     echo "<div class = 'pdt-container'>
 
-        <div class = 'pdt'
+        
 
             <div class = 'pdt-name'>$name</div>
-            <div class = 'pdt-price'>$price</div>
             <img src = '$impath' class = 'pdt-img'>
+            <div class = 'pdt-price'>$price</div>
             <p class='pdt-info'>$details</p>
-
-        </div>    
+            <div class='bot'>
+            <a href = 'edit_fe.php'><button class='edit'>Edit</button></a>
+            <a href = 'deletepdt.php'><button class='delete'>Delete</button></a>
+            </div>
+        
+            
     
     </div>
     ";

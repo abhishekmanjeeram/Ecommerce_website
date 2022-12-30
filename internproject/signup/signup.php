@@ -1,6 +1,6 @@
 <?php
 
-$uname = $_POST['uname'];
+$username = $_POST['username'];
 $pass1 = $_POST['upass1'];
 $pass2 = $_POST['upass2'];
 

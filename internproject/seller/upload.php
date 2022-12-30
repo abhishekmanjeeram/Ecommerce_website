@@ -1,8 +1,8 @@
 <?php
 
-$name = $_POST['name'];
-$price = $_POST['price'];
-$details = $_POST['details'];
+$name = $_POST["name"];
+$price = $_POST["price"];
+$details = $_POST["details"];
 echo "<br>";
 
 $actual_name = $_FILES['pdtimg']['name'];

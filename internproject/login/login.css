@@ -17,7 +17,6 @@ body
     background-size:cover ;
     padding-left: 0px;
     padding-right: 0px;
-    margin: 30px;
 
 }
 form{
@@ -26,32 +25,20 @@ form{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.397);
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
-    margin-top: 30px;
-    color: white;
-}
-.box
-{
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 0px;
-    
-    border-radius: 5px;
-    
     color: white;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+}
+.top h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 input
 {
@@ -71,37 +58,20 @@ input
 {
     background-color: rgb(11, 139, 32);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     border: transparent;
     border-radius: 2px;
     margin: 20px;
-    margin-bottom: 10px;
 }
 .submit:hover
 {
     background-color: rgb(9, 102, 24);
 }
-.upload
+button:hover
 {
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: 12px;
-    border: transparent;
-    border-radius: 2px;
-    width: 175px;
+    background-color: red;
 }
-.descrip
-{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 2px;
-    border: transparent;
-    width: 175px;
-}
+
+
